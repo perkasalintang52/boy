@@ -30,12 +30,12 @@ wa.me/${owner[0]}
   productListInfo: {
   productSections: [{
   title:'Klik untuk order',
-  products:[{productId:'7487741964584083'}]}],
-  headerImage: { productId: '7487741964584083',
+  products:[{productId:'7579889382082758'}]}],
+  headerImage: { productId: '7579889382082758',
   jpegThumbnail: baper },
-  businessOwnerJid: `6289654360447@s.whatsapp.net`
+  businessOwnerJid: `6282388332165@s.whatsapp.net`
   },
-  footerText: 'https://aiinne.github.io',
+  footerText: 'https://github.com/TsukasaChann',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
