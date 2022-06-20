@@ -3,8 +3,8 @@ let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})( [0-9]{1,3})?/i
 let handler = async (m, { conn, text, isOwner, groupMetadata }) => {
     let [_, code, expired] = text.match(linkRegex) || []
     if (!code) throw 'Link invalid'
-    if (global.db.data.users[m.sender].joinlimit == 999999) return m.reply('Maaf kamu sudah tidak bisa menggunakan free join..\nHarap hubungi *owner* kami')
-    global.db.data.users[m.sender].joinlimit -= 999999
+    if (global.db.data.users[m.sender].joinlimit == 1000) return m.reply('Maaf kamu sudah tidak bisa menggunakan free join..\nHarap hubungi *owner* kami')
+    global.db.data.users[m.sender].joinlimit -= 1
    // let id = m.chat
    // let groupMetadata = await conn.groupMetadata(m.chat)
     let res = await conn.groupAcceptInvite(code)
