@@ -6,7 +6,7 @@ conn.sendFile(m.chat, araaaa, '', '', m, true)
 //conn.sendMessage(m.chat, araaaa, MessageType.audio, {quoted: m, mimetype: 'audio/mp4', ptt:true})
 }
 
-handler.customPrefix = /^(ara ara)$/i
+handler.customPrefix = /^(ara ara|araara)$/i
 handler.command = new RegExp
 
 handler.limit = true
