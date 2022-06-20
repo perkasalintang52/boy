@@ -29,7 +29,7 @@ module.exports = {
                 if (user) {
                     if (!isNumber(user.exp)) user.exp = 0
                     if (!isNumber(user.limit)) user.limit = 100
-                    if (!isNumber(user.joinlimit)) user.joinlimit = 1
+                    if (!isNumber(user.joinlimit)) user.joinlimit = 9999
                     if (!isNumber(user.money)) user.money = 100000
                     if (!isNumber(user.bank)) user.bank = 100000
                     if (!isNumber(user.lastclaim)) user.lastclaim = 0
@@ -276,7 +276,7 @@ module.exports = {
                 } else global.db.data.users[m.sender] = {
                     exp: 0,
                     limit: 100,
-                    joinlimit: 1,
+                    joinlimit: 9999,
                     spammer: 0,
                     money: 10000,
                     bank: 10000,
