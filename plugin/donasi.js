@@ -1,13 +1,14 @@
 let handler = async m => m.reply(`
-╭─「 Donasi • Pulsa 」
+╭─「 Donasi • Saweria 」
 │ • Dana,Gopay,Ovo,Pulsa 
-│ •  [082388332165]
+│ •  [081322577124]
+| •  [https://saweria.co/joceylintangg]
 ╰────
 Donasi akan di gunakan untuk beli apikey dan jasa Run
 Berapapun donasi sangat berguna buat bot
 
 Chat owner jika ingin donasi 
-wa.me/6282388332165
+wa.me/6281322577123
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
