@@ -35,7 +35,7 @@ wa.me/${owner[0]}
   jpegThumbnail: baper },
   businessOwnerJid: `6282388332165@s.whatsapp.net`
   },
-  footerText: 'https://github.com/TsukasaChann',
+  footerText: 'https://saweria.co/joceylintangg',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
