@@ -1,7 +1,7 @@
 let handler = async m => m.reply(`
 ╭─「 Donasi • Saweria 」
 │ • Dana,Gopay,Ovo,Pulsa 
-│ •  [081322577124]
+│ •  [081322577123]
 | •  [https://saweria.co/joceylintangg]
 ╰────
 Donasi akan di gunakan untuk beli apikey dan jasa Run
