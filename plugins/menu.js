@@ -35,7 +35,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┏━━〔 *TsukasaMD* 〕━━⬣
+┏━━〔 *Sadboy Botz* 〕━━⬣
 ┃⬡ Hai, %name!
 ┃⬡ Tersisa *%limit Limit*
 ┃⬡ Role *%role*
@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://github.com/TsukasaChann', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), '😎Sadboy Botz | 😎Lintang', null, 'https://tiktok.com/@joceylintangg', 'Website', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
@@ -178,7 +178,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
-                                    url: 'https://Ainebot.github.io/'
+                                    url: 'https://instagram.com/joceylintangg'
                                 }
                             }, {
                                 quickReplyButton: {
